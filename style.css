@@ -212,6 +212,24 @@ body {
     font-weight: 600;
 }
 
+/* Global call-to-action button style (green) */
+.cta-btn {
+    background: var(--primary-color);
+    color: var(--bg-dark);
+    border: 2px solid var(--primary-color);
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 255, 136, 0.15);
+}
+
 .hero-links a:hover {
     border-color: var(--primary-color);
     transform: translateY(-2px);
