@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adityamishra-uw3e.onrender.com/sitemap.xml
