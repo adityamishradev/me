@@ -611,9 +611,19 @@ section {
 
 .project-image {
     width: 100%;
-    height: 250px;
+    /* Use a responsive aspect ratio so images scale automatically */
+    aspect-ratio: 16 / 9;
+    max-height: 450px;
     background: var(--bg-darker);
     overflow: hidden;
+}
+
+/* Make images inside project cards fill the area and crop neatly */
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .project-placeholder {
